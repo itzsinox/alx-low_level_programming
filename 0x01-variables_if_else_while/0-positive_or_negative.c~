@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ *main - A program that shows if a var is positive or negative
+ *REturn 0 (Success)
+ */
+int main(void)
+{
+int n;
+printf("give me a number n=%d\n", n);
+scanf("%d", &n);
+if (n < 0)
+{
+printf("%d is negative\n", n);
+}
+else if (n == 0)
+{
+printf("%d is zero\n", n);
+}
+else
+{
+printf("%d is positive\n", n);
+}
+return (0);
+}
