@@ -1,0 +1,29 @@
+#include <stdio.h>
+/**
+ * main - a prog that print all possible diff combs of three digits
+ * Return: always 0
+ */
+int main(void)
+{
+	int a, b, c;
+
+	for (a = 48; a < 58; a++)
+	{
+		for (b = 49; b < 58; b++)
+		{
+			for (c = 50; c < 58; c++)
+			{
+				putchar(a);
+				putchar(b);
+				putchar(c);
+				if (a != 55 || b != 56)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
+}
