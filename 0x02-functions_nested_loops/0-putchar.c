@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - a profram that prints _putchar
- * Return 0
+ * _putchar - a profram that prints _putchar
+ * Return: always 0
  */
 int main(void)
 {
