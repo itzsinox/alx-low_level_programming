@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * main - main func
  * _putchar - a profram that prints _putchar
  * Return: always 0
  */
