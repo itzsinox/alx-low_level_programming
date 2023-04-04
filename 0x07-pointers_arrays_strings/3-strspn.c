@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strspn - a function that gets thr lrngth of a prefic substring
- * @s: the initial segment
- * @accept: return val
- * Return : 0
+ * _strspn - entry point
+ * @s: input
+ * @accept: input
+ * Return: Always 0 (Success)
  */
 unsigned int _strspn(char *s, char *accept)
 {
