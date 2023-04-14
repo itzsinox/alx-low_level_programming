@@ -35,7 +35,7 @@ int _strlen(char *s)
 	return (i);
 }
 /**
- * errors - handles errors for main
+ * error - handles errors for main
  */
 void error(void)
 {
