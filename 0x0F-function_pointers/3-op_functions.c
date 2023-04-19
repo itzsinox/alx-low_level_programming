@@ -18,7 +18,7 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sun - return the diff of 2 numb
+ * op_sub - return the diff of 2 numb
  * @a: first numb
  * @b: second numb
  * Return: the diff
