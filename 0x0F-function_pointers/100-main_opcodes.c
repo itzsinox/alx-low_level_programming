@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/** main - prints its own opcodes
+/**
+ * main - prints its own opcodes
  * @argc: numb of arg
  * @argv: arr of arg
  * Return: 0
