@@ -12,6 +12,7 @@ void print_all(const char * const format, ...)
 	char *str, *sep = "";
 
 	va_list list;
+
 	va_start(list, format);
 	if (format)
 	{
