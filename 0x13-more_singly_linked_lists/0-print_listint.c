@@ -9,7 +9,7 @@ size_t print_listint(const listint_t *h)
 {
 	size_t a = 0;
 
-	while (a)
+	while (h)
 	{
 		printf("%d\n", h->n);
 		a++;
