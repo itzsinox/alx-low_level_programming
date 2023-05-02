@@ -12,7 +12,7 @@ typedef struct listint_s
 {
 	int n;
 	struct listint_s *next;
-} listint;
+} listint_t;
 
 	int delete_nodeint_at_index(listint_t **head, unsigned int index);
 	listint_t *find_listint_loop(listint_t *head);
