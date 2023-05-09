@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 	f = open(argv[1], O_RDONLY);
 	r = read(f, buffer, 1024);
 	t = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
-	do{
+	do {
 		if (f == -1 || r == -1)
 		{
 			dprintf(STDERR_FILENO,
@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
 		}
 		r = read(f, buffer, 1024);
 		t = open(argv[2], O_WRONLY | O_APPEND);
-	}while (r > 0);
+	} while (r > 0);
 	free(buffer);
 	close_file(f);
 	close_file(t);
@@ -78,6 +78,7 @@ int main(int argc, char *argv[])
 void close_file(int fd)
 {
 	int x;
+
 	x = close(fd);
 
 	if (x == -1)
