@@ -32,7 +32,7 @@ void check_elf(unsigned char *e_ident)
 				e_ident[dex] != 'L' &&
 				e_ident[dex] != 'F')
 		{
-			dprintf(SRDERR_FILENO, "Error: not an ELF file\n");
+			dprintf(STDERR_FILENO, "Error: not an ELF file\n");
 			exit(98);
 		}
 	}
